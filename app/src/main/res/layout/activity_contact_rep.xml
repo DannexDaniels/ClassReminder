@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactRep">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="16dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Message"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="5"
+            android:background="@drawable/edit_text_back"
+            android:id="@+id/etMessage"
+            android:hint="Enter Your message"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Message"
+            android:textColor="@color/textColor"
+            android:background="@drawable/submit_btn"
+            android:layout_margin="20dp"
+            android:onClick="sendMessage"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:text="Make a Call Instead"
+            android:layout_margin="20dp"
+            android:background="@drawable/submit_btn"
+            android:onClick="makeCall"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

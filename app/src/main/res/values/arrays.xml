@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="reminder">
+        <item>30 Minutes</item>
+        <item>1 Hour</item>
+        <item>2 Hours</item>
+        <item>3 Hours</item>
+    </string-array>
+    <string-array name="days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+    <string-array name="times">
+        <item>7:00 - 10:00</item>
+        <item>10:00 - 13:00</item>
+        <item>13:00 - 16:00</item>
+        <item>16:00 - 19:00</item>
+    </string-array>
+    <string-array name="venues">
+        <item>LBB</item>
+        <item>SPD</item>
+        <item>MED</item>
+        <item>MCU</item>
+        <item>Multi-Purpose Hall</item>
+        <item>Shivas</item>
+    </string-array>
+</resources>
